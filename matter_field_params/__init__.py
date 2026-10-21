@@ -6,6 +6,7 @@ from .emfield_params_manager import (
     intensity_wcm2_to_field_au,
     wavelength_nm_to_omega_au,
 )
+from .isotope_masses import isotope_mass, nuclear_mass, reduced_mass
 from .particle_params_manager import (
     get_reduced_masses_and_charges_3body,
     predefined_3body_systems,
@@ -18,7 +19,10 @@ __all__ = [
     "get_reduced_masses_and_charges_3body",
     "intensity_wcm2_to_au",
     "intensity_wcm2_to_field_au",
+    "isotope_mass",
+    "nuclear_mass",
     "predefined_3body_systems",
+    "reduced_mass",
     "wavelength_nm_to_omega_au",
 ]
 
